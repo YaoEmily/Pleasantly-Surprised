@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>CSS实现简洁适用搜索框样式代码-xw素材网</title>
+	<link href="style.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+
+<body style=" margin-top:200px;">
+	<form action="#" name="search">
+		<table border="0" align="center" cellpadding="0" cellspacing="0" class="tab_search">
+			<tr>
+				<td>
+					<input type="text" name="q" title="Search" class="searchinput" id="searchinput" onkeydown="if (event.keyCode==13) {}" onblur="if(this.value=='')value='请输入关键字搜索';" onfocus="if(this.value=='请输入关键字搜索')value='';" value="请输入关键字搜索" size="10" />
+				</td>
+				<td>
+					<input type="image" width="21" height="17" class="searchaction" onclick="if(document.forms['search'].searchinput.value=='请输入关键字搜索')document.forms['search'].searchinput.value='';" alt="Search" src="search.png" border="0" hspace="2" />
+				</td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+
+</html>
